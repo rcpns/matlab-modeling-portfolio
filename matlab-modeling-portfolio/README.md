@@ -21,11 +21,11 @@ Simulates COVID-19 cases in the United States had vaccines not been introduced w
 ### Results
 
 #### 1. Baseline Model (Without $\beta$-Decay)
-*Optimized with Steepest Descent, constant infection rate $\beta$, designed by Jevin Xu and Matthew Delaney*
+*Optimized with Steepest Descent, constant infection rate (beta), designed by Jevin Xu and Matthew Delaney*
 ![COVID without beta decay](covid-sir-model/results/covid_without_beta_decay.png)
 
 #### 2. Improved Model (With $\beta$-Decay)
-*Optimized with 'fminsearch' and 'ode45', exponentially decaying infection rate $\beta$, designed by Jevin Xu*
+*Optimized with 'fminsearch' and 'ode45', exponentially decaying infection rate (beta), designed by Jevin Xu*
 ![COVID with beta decay](covid-sir-model/results/covid_with_beta_decay.png)
 
 ## How to Run
